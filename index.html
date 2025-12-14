@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OB Montessori, Fairview</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body { margin:0; font-family:'Montserrat', sans-serif; background-color:#FFFFFF; color:#0A1393; }
+        a { text-decoration:none; color:inherit; }
+        nav { background-color:#0A1393; padding:15px 30px; display:flex; justify-content:space-between; align-items:center; color:#FFFFFF; }
+        nav a { margin-left:20px; color:#FFFFFF; font-weight:600; }
+        nav a.active { color:#3844E9; }
+        .hero { position:relative; background:url('OBMontessoriFront.jpg') center/cover no-repeat; height:70vh; display:flex; justify-content:center; align-items:center; text-align:center; color:#FFFFFF; }
+        .hero-overlay { background-color: rgba(0,0,0,0.5); padding:30px 40px; border-radius:10px; }
+        .hero h1 { font-size:3rem; margin:0; }
+        .hero h2 { font-size:1.8rem; margin-top:10px; }
+        .about { background-color:#BDC1F2; padding:60px 20px; }
+        .about h2 { text-align:center; color:#3844E9; font-size:2.5rem; margin-bottom:40px; }
+        .about-content { max-width:1200px; margin:0 auto; display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:start; }
+        .about-text { font-size:1rem; line-height:1.6; }
+        .about-images { display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+        .about-images img { width:100%; border-radius:8px; }
+        footer { background-color:#0A1393; color:#FFFFFF; text-align:center; padding:30px 20px; }
+        @media(max-width:1024px){ .about-content { grid-template-columns:1fr; } .about-images { grid-template-columns:1fr 1fr; } }
+        @media(max-width:768px){ .hero h1 { font-size:2rem; } .hero h2 { font-size:1.2rem; } .about-images { grid-template-columns:1fr; } }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">OB Montessori, Fairview</div>
+        <div class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="calculator.html">Grade Calculator</a>
+            <a href="clubs.html">Clubs</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay">
+            <h1>Welcome to OB Montessori, Fairview</h1>
+            <h2>Excellence In Education Since 1966</h2>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Our School</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Educating Future Leaders. Preparing for Life.</p>
+                <p><strong>Our Approach:</strong> Holistic and Practical. We provide a specialized, prepared environment that focuses on the whole child.</p>
+                <p><strong>Mission:</strong> To shape self-developing, productive individuals ready to direct the future.</p>
+                <p><strong>Focus on Junior High School (Grades 7-10):</strong> Supporting independence and critical thinking.</p>
+                <ul>
+                    <li>Leadership: Camping for resilience and teamwork.</li>
+                    <li>The Arts: Music, Theater, and Visual Arts.</li>
+                    <li>Wellness: Sports programs for fitness and sportsmanship.</li>
+                </ul>
+            </div>
+            <div class="about-images">
+                <img src="AboutOurSchool1.jpg" alt="About Our School 1">
+                <img src="AboutOurSchool2.jpg" alt="About Our School 2">
+                <img src="AboutOurSchool3.jpg" alt="About Our School 3">
+                <img src="AboutOurSchool4.jpg" alt="About Our School 4">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>OB Montessori, Fairview | Quezon City</p>
+        <p>Contact: info@obmontessori.edu.ph | (02) 1234-5678</p>
+        <p><a href="index.html">Home</a> | <a href="calculator.html">Grade Calculator</a> | <a href="clubs.html">Clubs</a></p>
+    </footer>
+
+</body>
+</html>
